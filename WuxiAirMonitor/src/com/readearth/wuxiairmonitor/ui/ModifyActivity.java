@@ -42,6 +42,7 @@ public class ModifyActivity extends Activity implements Constants {
 		listView = (DragSortListView) findViewById(R.id.drag_list);
 		addStation = (LinearLayout) findViewById(R.id.linelayout_add_station);
 		addStation.setOnClickListener(new OnClickListener() {
+			//
 
 			@Override
 			public void onClick(View v) {
