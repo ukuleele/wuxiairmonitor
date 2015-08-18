@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aqi="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <com.readearth.wuxiairmonitor.ui.view.CustomScrollView
+        android:id="@+id/explainDetail_scrollView_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/explain_contentView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dip_10" >
+
+            <!-- 空气质量等级 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aqi_quality_class"
+                android:textColor="@color/explain_color"
+                android:textSize="@dimen/explain_text_size" />
+
+            <com.readearth.wuxiairmonitor.ui.view.SolidLineView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_5"
+                android:layout_marginTop="@dimen/dip_2"
+                aqi:solidLineColor="@color/holo_blue_light"
+                aqi:solidLineSize="@dimen/dip_1" />
+
+            <LinearLayout
+                android:id="@+id/explain_classView_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <!-- 标准参考 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_20"
+                android:text="@string/class_reference"
+                android:textColor="@color/explain_color"
+                android:textSize="@dimen/explain_text_size" />
+
+            <com.readearth.wuxiairmonitor.ui.view.SolidLineView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_5"
+                android:layout_marginTop="@dimen/dip_2"
+                aqi:solidLineColor="@color/holo_blue_light"
+                aqi:solidLineSize="@dimen/dip_1" />
+
+            <LinearLayout
+                android:id="@+id/explain_referenceClass_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_5"
+                android:background="@color/holo_blue_light"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <!-- 其他说明 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_40"
+                android:text="@string/other_explain"
+                android:textColor="@color/explain_color"
+                android:textSize="@dimen/explain_text_size" />
+
+            <com.readearth.wuxiairmonitor.ui.view.SolidLineView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_5"
+                android:layout_marginTop="@dimen/dip_2"
+                aqi:solidLineColor="@color/holo_blue_light"
+                aqi:solidLineSize="@dimen/dip_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_5"
+                android:text="@string/other_explain_1"
+                android:textColor="@color/explain_color"
+                android:textSize="@dimen/explain_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_5"
+                android:text="@string/other_explain_2"
+                android:textColor="@color/explain_color"
+                android:textSize="@dimen/explain_text_size" />
+        </LinearLayout>
+    </com.readearth.wuxiairmonitor.ui.view.CustomScrollView>
+
+</LinearLayout>

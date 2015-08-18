@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="evironment_center">无锡市环境监测中心站</string>
+    <string name="app_name">无锡空气质量</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="realtime">实时</string>
+    <string name="history">历史</string>
+    <string name="concentration">浓度</string>
+    <string name="map">地图</string>
+    <string name="options">设置</string>
+    <string name="title">标题</string>
+    <string name="save">保存</string>
+    <string name="loading">加载中</string>
+    <string name="realtiem_number">实时指数</string>
+    <string name="air_quality">空气质量</string>
+    <string name="drawer_open">展开导航菜单</string>
+    <string name="drawer_close">关闭导航菜单</string>
+    <string name="action_websearch">网络搜索</string>
+    <string name="action_share">分享</string>
+    <string name="app_not_available">找不到可用的App</string>
+    <string name="ok">确定</string>
+    <string name="pollute_value"></string>
+    <string name="confirm">确认退出</string>
+    <string name="confirm_to_quit">确定要退出程序吗？</string>
+    <string name="txt_userCancel">取消</string>
+    <string name="exit_tooltip">再按一次返回键退出程序</string>
+    <string name="update_error">数据更新失败</string>
+    <string name="network_error">网络连接异常</string>
+    <string name="data_leak">缺少该站点数据</string>
+    <string name="downloading_data">更新中</string>
+    <string name="downloading_wait">请稍后</string>
+    <string name="locating_text">定位中</string>
+    <string name="shanghaiText">上海</string>
+    <string name="imageDesc">污染指数卡通形象</string>
+    <string name="wuxi_aqi">无锡空气质量</string>
+    <string name="main_polution">首要污染物</string>
+    
+    <string name="realtime_aqi_index">实时指数</string>
+    <string name="last_update_time">更新于</string>
+    <string name="primary_pollute_type">首要污染物</string>
+    <string name="aqiIndex_realtime">实时指数</string>
+    <string name="aqi_24hour">24小时AQI</string>
+    <string name="aqi_24hour_trend">24小时AQI变化</string>
+    <string name="aqi_month">30天AQI</string>
+    <string name="aqi_month_trend">30天AQI变化</string>
+    <string name="monitor_station">监测站点</string>
+    <string name="recent_warning">最近预警</string>
+    <string name="night_label">夜间</string>
+    <string name="moring_label">上午</string>
+    <string name="afternoon_label">下午</string>
+    <string name="health_effects">对健康影响</string>
+    <string name="suggestion">建议措施</string>
+    <string name="default_long">布局中占位字符</string>
+    <string name="default_short">布局字</string>
+    <string name="tips">提示</string>
+    <string name="try_again">重试</string>
+    <string name="please_open_network">初始化失败，请保证网络畅通</string>
+
+    <!-- 设置 -->
+    <string name="setting_yjts">预警推送</string>
+    <string name="setting_kqzldj">空气质量等级</string>
+    <string name="setting_ckbz">参考标准</string>
+    <string name="setting_sysm">使用说明</string>
+    <string name="setting_qitbz">其他帮助</string>
+    <string name="setting_jcxbb">监测新版本</string>
+    <string name="setting_gy">关于我们</string>
+
+    <dimen name="explain_text_size">16.0sp</dimen>
+    <dimen name="explain_grid_text_size">14.0sp</dimen>
+    <dimen name="explain_reference_class_width">70.0dip</dimen>
+
+    <string-array name="condition_array">
+        <item>优</item>
+        <item>良</item>
+        <item>轻度污染</item>
+        <item>中度污染</item>
+        <item>重度污染</item>
+        <item>严重污染</item>
+    </string-array>
+    <string-array name="health_array">
+        <item>空气质量令人满意，基本无空气污染。</item>
+        <item>空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响。</item>
+        <item>易感人群症状有轻度加剧，健康人群出现刺激症状。</item>
+        <item>进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响。</item>
+        <item>心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状。</item>
+        <item>健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病。</item>
+    </string-array>
+    <string-array name="suggestion_array">
+        <item>各类人群可正常活动。</item>
+        <item>极少数异常敏感人群应减少户外活动。</item>
+        <item>儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼。</item>
+        <item>儿童、老年人及心脏病、呼吸系统疾病患者避免长时间、高强度的户外锻炼，一般人群适量减少户外运动。</item>
+        <item>儿童、老年人及心脏病、肺病患者应停留在室内，停止户外运动，一般人群减少户外运动。</item>
+        <item>儿童、老年人和病人应停留在室内，避免体力消耗，一般人群避免户外活动。</item>
+    </string-array>
+    <string-array name="aqiRange_array">
+        <item>0~50</item>
+        <item>51~100</item>
+        <item>101~150</item>
+        <item>151~200</item>
+        <item>201~300</item>
+        <item>>300</item>
+    </string-array>
+    <string-array name="aqiValue_array">
+        <item>0~35</item>
+        <item>36~75</item>
+        <item>76~115</item>
+        <item>116~150</item>
+        <item>151~250</item>
+        <item>>250</item>
+    </string-array>
+
+    <string name="share_template_text" formatted="false">%s%s实时空气质量指数%d，空气质量等级%s，首要污染物%s，%s【上海空气质量】</string>
+    <string name="share_template_good_text" formatted="false">%s%s实时空气质量指数%d，空气质量等级%s，%s【上海空气质量】</string>
+    <string name="warning_yellow">黄色预警</string>
+    <string name="warning_orange">橙色预警</string>
+    <string name="temp_format_text">%s°C</string>
+    <string name="km_unit_text">km</string>
+    <string name="kmh_format_text">%skm/h</string>
+    <string name="index_text">指数</string>
+    <string name="station_text">监测站名</string>
+    <string name="concentration_type">指标</string>
+    <string name="concentration_time">均值类型</string>
+    <string name="concentration_value">浓度值</string>
+    <string name="aqi_text">AQI</string>
+    <string name="pm25_text">PM2.5</string>
+    <string name="pm10_text">PM10</string>
+    <string name="o3_text">O3</string>
+    <string name="so2_text">SO2</string>
+    <string name="no2_text">NO2</string>
+    <!-- <string name="pm25_text">PM₂.₅</string> -->
+    <!-- <string name="pm10_text">PM₁₀</string> -->
+    <!-- <string name="o3_text">O₃</string> -->
+    <!-- <string name="so2_text">SO₂</string> -->
+    <!-- <string name="no2_text">NO₂</string> -->
+    <string name="co_text">CO</string>
+    <string name="hour_1">1小时</string>
+    <string name="hour_24">24小时</string>
+    <string name="ugm3_text">µg/m³</string>
+    <string name="mgm3_text">mg/m³</string>
+    <string name="mgm3_brackets_text">(mg/m³)</string>
+    <string name="ugm3_brackets_text">(µg/m³)</string>
+    <string name="add_station_text">添加关注站点</string>
+    <string name="need_location_text">返回最近的观测站点</string>
+    <string name="recive_push_text">接收推送通知</string>
+    <string name="group_average_text">全区平均</string>
+    <string name="finish_text">完成</string>
+    <string name="return_text">返回</string>
+    <string name="delete">删除</string>
+    <string name="softwate_update">软件更新</string>
+    <string name="software_update_error">程序版本更新错误</string>
+    <string name="software_is_latest">当前程序已为最新版本</string>
+    <string name="software_update_template" formatted="false">当前版本：%.2f，发现新版本%.2f，是否更新</string>
+    <string name="software_update_yes">更新软件</string>
+    <string name="softwate_update_no">暂不更新</string>
+    <string name="last_page">已到最后一页</string>
+    <string name="first_page">已是第一页</string>
+    <string name="latest_warning">最新的测试蓝色预警</string>
+    <string name="history_warning">最近预警</string>
+    <string name="copy_right">上海市环境监测中心</string>
+    <string name="data_source">数据来源</string>
+    <string name="colon">：</string>
+    <string name="official_publish">上海市环境监测中心官方发布</string>
+    <string name="official_website">http://www.semc.gov.cn</string>
+    <string name="aqi_quality_index">空气质量指数</string>
+    <string name="aqi_quality_class">空气质量等级</string>
+    <string name="class_reference">标准参考</string>
+    <string name="quality_evaluation">质量评价</string>
+    <string name="air_index">空气指数</string>
+    <string name="average_value_type">均值类型</string>
+    <string name="average_value_type_24">24小时</string>
+    <string name="no_data_tip">暂无最新观测数据</string>
+    <string name="other_explain">其他说明</string>
+    <string name="other_explain_1">1、本软件实时发布的小时数据均为未审核数据，仅供参考；</string>
+    <string name="other_explain_2">2、符号“—”代表空气质量自动站监测仪器进行校零、校标、或者遇到通讯故障、仪器故障等影响时，某些或者全部污染物参数无数据。</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="modify_item_height">50dp</dimen>
+    
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_small_size">14.0sp</dimen>
+    <dimen name="barchart_padding_bottom">16.0dip</dimen>
+    <dimen name="chart_height">300.dip</dimen>
+    <dimen name="chart_timelabel_size">16.0sp</dimen>
+    <dimen name="textseize_middle">16.0sp</dimen>
+    <dimen name="textseize_small">14.0sp</dimen>
+    <dimen name="textseize_big">18.0sp</dimen>
+    <dimen name="textseize_very_big">22.0sp</dimen>
+    <dimen name="anchor_label_size">14.0sp</dimen>
+    <dimen name="anchor_point_size">6.0sp</dimen>
+    <dimen name="chart_line_width">2.0dp</dimen>
+    <dimen name="marginX_Time">10.0dip</dimen>
+    <dimen name="marginY_Time">12.0dip</dimen>
+    <dimen name="marginX_Degree">18.0dip</dimen>
+    <dimen name="setting_size">30.0dip</dimen>
+    <dimen name="setting_paddign">8dip</dimen>
+    <dimen name="setting_marginleft">10dp</dimen>
+    <dimen name="padding35">35.0dip</dimen>
+    <dimen name="padding8">10.0dip</dimen>
+    <dimen name="dip_130">130.0dip</dimen>
+    <dimen name="dip_100">100.0dip</dimen>
+    <dimen name="dip_70">70.0dip</dimen>
+    <dimen name="dip_40">40.0dip</dimen>
+    <dimen name="dip_35">35.0dip</dimen>
+    <dimen name="dip_30">30.0dip</dimen>
+    <dimen name="dip_26">26.0dip</dimen>
+    <dimen name="dip_20">20.0dip</dimen>
+    <dimen name="dip_15">15.0dip</dimen>
+    <dimen name="dip_10">10.0dip</dimen>
+    <dimen name="dip_6">6.0dip</dimen>
+    <dimen name="dip_5">5.0dip</dimen>
+    <dimen name="dip_3">3.0dip</dimen>
+    <dimen name="dip_2">2.0dip</dimen>
+    <dimen name="dip_1">1.0dip</dimen>
+    <dimen name="dip_0">0.0dip</dimen>
+    <dimen name="idx_radius">12.0dip</dimen>
+    <dimen name="idx_height">36.0dip</dimen>
+    <dimen name="idx_status_padding">6.0dip</dimen>
+    <dimen name="idx_status_paddingTop">2dip</dimen>
+
+</resources>

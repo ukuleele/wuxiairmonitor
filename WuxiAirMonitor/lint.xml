@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="MissingTranslation" severity="warning" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/readearth/wuxiairmonitor/ui/fragments/FragmentRealtime.java" />
+    </issue>
+</lint>

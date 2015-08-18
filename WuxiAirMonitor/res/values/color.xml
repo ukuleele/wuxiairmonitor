@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="green">#00ff00</drawable>
+    <drawable name="gray">#a5a9ac</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="dark_gray">#111111</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="transparent_balack">#99000000</drawable>
+    <drawable name="transparent_gray">#22000000</drawable>
+
+    <color name="explain_color">#000</color>
+    <color name="option_color">#FFF</color>
+    <color name="translucence_white">#ffffffff</color>
+    <color name="alpah_white">#bbffffff</color>
+    <color name="translucence_black">#33000000</color>
+    <color name="station_item_backgroud">#22ffffff</color>
+    <color name="divider_color">#44ffffff</color>
+    <color name="setting_dividing_line_color">#30000000</color>
+    <color name="condition_excellent_color">#ff0caf0c</color>
+    <color name="condition_good_color">#ffc0c218</color>
+    <color name="condition_low_color">#ffdc8026</color>
+    <color name="condition_middle_color">#ffcb3325</color>
+    <color name="condition_high_color">#ffaf32ba</color>
+    <color name="conditon_heavily_color">#ff950c32</color>
+    <color name="condition_nodatadefault_color">#ffeeeeee</color>
+    <color name="scan_background">#ffeeeeee</color>
+    <color name="chart_line_color">#ff177eff</color>
+    <color name="chart_bg_color">#11ffffff</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+
+</resources>

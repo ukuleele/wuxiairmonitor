@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView 
+    android:id="@+id/refresh_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    ptr:ptrAnimationStyle="flip"
+    ptr:ptrHeaderSubTextColor="@color/translucence_white"
+    ptr:ptrHeaderTextColor="@color/translucence_white"
+    ptr:ptrMode="pullFromStart" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/txt1_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@drawable/white" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt1_sta_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@drawable/white"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/img1_sta_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/txt1_sta_name"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:src="@drawable/open"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:text="@string/realtiem_number"
+                android:textColor="@drawable/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/txt1_index"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="300"
+                        android:textColor="@drawable/green"
+                        android:textSize="70sp" />
+
+                    <TextView
+                        android:id="@+id/txt1_pltlevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/txt1_index"
+                        android:layout_marginBottom="10dp"
+                        android:layout_toRightOf="@id/txt1_index"
+                        android:text="@string/ok"
+                        android:textColor="@drawable/green"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txt1_mainplt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt1_index"
+                        android:text="@string/main_polution"
+                        android:textColor="@drawable/white"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/img1_boy"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/biaoqing1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#33FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/xx_effect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/effect" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/xx_effect"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/health_effects"
+                        android:textColor="#66FFFFFF"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:background="#33FFFFFF" />
+
+                <TextView
+                    android:id="@+id/txt1_influence"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="-"
+                    android:textColor="@drawable/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#33FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/xx_suggest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/suggest" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/xx_suggest"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/suggestion"
+                        android:textColor="#66FFFFFF"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="1px"
+                    android:layout_height="fill_parent"
+                    android:background="#33FFFFFF" />
+
+                <TextView
+                    android:id="@+id/txt1_advice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="-"
+                    android:textColor="@drawable/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#33FFFFFF" />
+        </LinearLayout>
+
+
+     
+    </LinearLayout>
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+   <com.readearth.wuxiairmonitor.ui.view.HorizontalLayout
+            android:id="@+id/forecast_view"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+</LinearLayout>

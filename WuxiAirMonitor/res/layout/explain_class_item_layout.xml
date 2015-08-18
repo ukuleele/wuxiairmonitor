@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dip_15"
+    android:paddingTop="@dimen/dip_5" >
+
+    <TextView
+        android:id="@+id/explain_item_class_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_text_size" />
+
+    <TextView
+        android:id="@+id/explain_item_aqiIndex_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip_5"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_text_size" />
+
+    <TextView
+        android:id="@+id/explain_item_healthEffect_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip_5"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_text_size" />
+
+    <TextView
+        android:id="@+id/explain_item_suggestion_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip_5"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_text_size" />
+
+</LinearLayout>

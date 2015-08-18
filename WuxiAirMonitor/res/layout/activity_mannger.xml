@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.mobeta.android.dslv.DragSortListView
+        android:id="@+id/drag_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        dslv:collapsed_height="1px"
+        dslv:drag_enabled="true"
+        dslv:drag_handle_id="@id/drag_handle"
+        dslv:drag_scroll_start="0.33"
+        dslv:drag_start_mode="onDown"
+        dslv:float_alpha="0.6"
+        dslv:remove_enabled="true"
+        dslv:slide_shuffle_speed="0.3" />
+
+    <LinearLayout
+        android:id="@+id/linelayout_add_station"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="#FFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/table_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_station_text" />
+    </LinearLayout>
+
+</LinearLayout>

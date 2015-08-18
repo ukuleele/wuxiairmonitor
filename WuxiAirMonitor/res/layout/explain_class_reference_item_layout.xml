@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/explain_class_reference_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_1"
+        android:layout_marginTop="@dimen/dip_1"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dip_5"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_grid_text_size"
+        android:width="@dimen/explain_reference_class_width" />
+
+    <TextView
+        android:id="@+id/explain_class_aqi_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_1"
+        android:layout_marginTop="@dimen/dip_1"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dip_5"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_grid_text_size"
+        android:width="@dimen/explain_reference_class_width" />
+
+    <TextView
+        android:id="@+id/explain_class_value_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_1"
+        android:layout_marginTop="@dimen/dip_1"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dip_5"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_grid_text_size"
+        android:width="@dimen/explain_reference_class_width" />
+
+    <TextView
+        android:id="@+id/explain_reference_value_type_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dip_1"
+        android:layout_marginRight="@dimen/dip_1"
+        android:layout_marginTop="@dimen/dip_1"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dip_5"
+        android:text="@string/average_value_type_24"
+        android:textColor="@color/explain_color"
+        android:textSize="@dimen/explain_grid_text_size"
+        android:width="@dimen/explain_reference_class_width" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#77000000"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/title_bg_color"
+            android:clickable="true"
+            android:padding="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/title_add" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/wuxi_aqi"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/title_bg_color"
+            android:clickable="true"
+            android:padding="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/title_update"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <view
+        class = "android.support.v4.view.ViewPager"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/transparent" >
+    </view>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="5dp" >
+
+    </RelativeLayout>
+
+
+    <com.readearth.wuxiairmonitor.ui.view.PagePointUtil
+        android:id="@+id/page_location_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/evironment_center"
+        android:textColor="#77FFFFFF"
+        android:textSize="12sp" />
+
+</LinearLayout>
